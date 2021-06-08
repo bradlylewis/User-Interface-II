@@ -110,9 +110,12 @@ nav .links{
     width: 50%;
     margin-right: 5%;
 }
-/* .left {
-    background-img: url('../images/person.jpg');
-} */
+.left {
+    background-image: url('../images/person.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .right {
     display: flex;
     align-items: flex-end;
@@ -128,7 +131,7 @@ nav .links{
     flex-wrap:wrap;
     justify-content: space-between;
 }
-.one, .two, .three, .four, .five, .six, .seven, .eight {
+.bottom div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -136,54 +139,16 @@ nav .links{
     width: 220px;
     height: 240px;
     margin-bottom: 5%;
-}
-.one .box {
+}    
+.box {
     background-color: #a8dadc;
     height: 100%;
     width: 100%;
     border: 1px solid black;
-}
-.two .box {
-    background-color: #a8dadc;
-    height: 100%;
-    width: 100%;
-    border: 1px solid black;
-}
-.three .box {
-    background-color: #a8dadc;
-    height: 100%;
-    width: 100%;
-    border: 1px solid black;
-}
-.four .box {
-    background-color: #a8dadc;
-    height: 100%;
-    width: 100%;
-    border: 1px solid black;
-}
-.five .box {
-    background-color: #a8dadc;
-    height: 100%;
-    width: 100%;
-    border: 1px solid black;
-}
-.six .box {
-    background-color: #a8dadc;
-    height: 100%;
-    width: 100%;
-    border: 1px solid black;
-}
-.seven .box {
-    background-color: #a8dadc;
-    height: 100%;
-    width: 100%;
-    border: 1px solid black;
-}
-.eight .box {
-    background-color: #a8dadc;
-    height: 100%;
-    width: 100%;
-    border: 1px solid black;
+    background-image: url('https://picsum.photos/200');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* Footer Section Styles */
